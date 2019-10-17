@@ -1,10 +1,11 @@
 <html>
     <head>
         <title>Rekomendasi Obat</title>
-    </head>
+    
 
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
+    </head>
 
     <body>   
         <nav>
@@ -18,7 +19,7 @@
             <h1>Rekomendasi Obat</h1>
         </div>
         <main>
-            <div>
+            <div id="pilihan">
                 <h2>Kamu bisa memasukan penyakit yang terdiagnosa</h2>
                 <form action="kontraindikasi.php" method="POST">
                     <select name="daftar_penyakit">

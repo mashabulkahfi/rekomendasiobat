@@ -1,5 +1,11 @@
 <html>
+<head>
+        <title>Rekomendasi Obat</title>
+    
 
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
+    </head>
 <nav>
             <div id="logo-img">
               <a href="#">
