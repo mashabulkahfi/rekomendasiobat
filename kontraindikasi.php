@@ -8,6 +8,18 @@
         <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
     </head>
 
+    <nav>
+            <div id="logo-img">
+              <a href="#">
+                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
+              </a>
+            </div>
+        </nav>     
+        <div id="banner">
+            <h1>Rekomendasi Obat</h1>
+        </div>
+        <h2>Apakah ada penyakit lain yang diidap?</h2>
+
 <?php
     session_start();
     $penyakit=$_POST['daftar_penyakit'];
@@ -26,19 +38,6 @@
     <?php ; }
     elseif($penyakit=="asthma" ){
         ?>
-
-        <nav>
-            <div id="logo-img">
-              <a href="#">
-                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
-              </a>
-            </div>
-        </nav>     
-        <div id="banner">
-            <h1>Rekomendasi Obat</h1>
-        </div>
-        <div id="pilihan">
-            <h2>Apakah ada penyakit lain yang diidap?</h2>
             <form action="listobat.php" method="POST">
                     <select name="daftar_kontra">
                         <option value="infeksi jamur sistemik">Infeksi Jamur Sistemik</option>
@@ -50,7 +49,6 @@
 
                     <input type="submit" name="submit" value="Submit">
             </form>
-        </div>
     <?php ; }
     elseif($penyakit=="asthma akut"){
         ?>

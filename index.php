@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
     </head>
 
-    <body>   
+    <body class="center">   
         <nav>
             <div id="logo-img">
               <a href="#">
