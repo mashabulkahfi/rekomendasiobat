@@ -4,10 +4,11 @@
     </head>
 
     <link rel="stylesheet" href="style.css">
-    <link >
+    <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
 
-    <body class="center">
+    <body>
         <div>
+            <h1>Rekomendasi Obat</h1>
             <h2>Kamu bisa memasukan penyakit yang terdiagnosa</h2>
             <form action="kontraindikasi.php" method="POST">
                 <select name="daftar_penyakit">
