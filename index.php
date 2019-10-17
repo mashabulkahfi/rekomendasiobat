@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
     </head>
 
-    <body class="center">   
+    <body >   
         <nav>
             <div id="logo-img">
               <a href="https://salty-plains-98133.herokuapp.com/">
@@ -21,7 +21,7 @@
         <main>
             <div id="pilihan">
                 <h2>Kamu bisa memasukan penyakit yang terdiagnosa</h2>
-                <form action="kontraindikasi.php" method="POST">
+                <form action="kontraindikasi.php" method="POST" class="center">
                     <select name="daftar_penyakit">
                         <option value="alergi rinitis">Alergi Rinitis</option>
                         <option value="asthma">Asthma</option>
