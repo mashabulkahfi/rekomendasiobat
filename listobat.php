@@ -77,7 +77,7 @@
         echo "1. Acetaminophen" ;?> <br><?php
         echo "2. Ibuprofen";?> <br><?php
     }
-    elseif (($gejala=="nyeri") and ($kontra=="depresi penapasan")){
+    elseif (($gejala=="nyeri") and ($kontra=="depresi pernapasan")){
         echo "1. Acetaminophen" ;?> <br><?php
         echo "2. Ibuprofen";?> <br><?php
     }
