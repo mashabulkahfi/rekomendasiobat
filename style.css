@@ -25,6 +25,13 @@ textarea{
 	font-size: 20px;
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 #pilihan form {
 	font-family: 'Karla', sans-serif;
 	font-size: 20px;

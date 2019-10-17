@@ -8,7 +8,7 @@
     </head>
 <nav>
             <div id="logo-img">
-              <a href="#">
+              <a href="https://salty-plains-98133.herokuapp.com/">
                 <img src="src/drugs.png" alt="Rekomendasi Obat logo">
               </a>
             </div>
