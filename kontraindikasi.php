@@ -18,17 +18,31 @@
     <?php ; }
     elseif($penyakit=="asthma" ){
         ?>
-        <form action="listobat.php" method="POST">
-                <select name="daftar_kontra">
-                    <option value="infeksi jamur sistemik">Infeksi Jamur Sistemik</option>
-                    <option value="sensitif mometasone furoate">Senitif Mometasone Furoate</option>
-                    <option value="sensitif ormoterol fumarate">Sensitif Ormoterol Fumurate</option>
-                    <option value="tidak ada">Tidak ada</option>
 
-                </select>
+        <nav>
+            <div id="logo-img">
+              <a href="#">
+                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
+              </a>
+            </div>
+        </nav>     
+        <div id="banner">
+            <h1>Rekomendasi Obat</h1>
+        </div>
+        <div id="pilihan">
+            <h2>Apakah ada penyakit lain yang diidap?</h2>
+            <form action="listobat.php" method="POST">
+                    <select name="daftar_kontra">
+                        <option value="infeksi jamur sistemik">Infeksi Jamur Sistemik</option>
+                        <option value="sensitif mometasone furoate">Senitif Mometasone Furoate</option>
+                        <option value="sensitif ormoterol fumarate">Sensitif Ormoterol Fumurate</option>
+                        <option value="tidak ada">Tidak ada</option>
 
-                <input type="submit" name="submit" value="Submit">
-        </form>
+                    </select>
+
+                    <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
     <?php ; }
     elseif($penyakit=="asthma akut"){
         ?>

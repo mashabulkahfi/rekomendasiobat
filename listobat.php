@@ -1,5 +1,16 @@
 <html>
 
+<nav>
+            <div id="logo-img">
+              <a href="#">
+                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
+              </a>
+            </div>
+        </nav>     
+        <div id="banner">
+            <h1>Rekomendasi Obat</h1>
+        </div>
+
 <?php
     session_start();
     $gejala=$_SESSION["penyakit"];
