@@ -21,7 +21,7 @@
         <main>
             <div id="pilihan">
                 <h2>Kamu bisa memasukan penyakit yang terdiagnosa</h2>
-                <form action="kontraindikasi.php" method="POST" class="center">
+                <form action="kontraindikasi.php" method="POST">
                     <select name="daftar_penyakit">
                         <option value="alergi rinitis">Alergi Rinitis</option>
                         <option value="asthma">Asthma</option>
