@@ -22,15 +22,17 @@ textarea{
 	padding: 8px 16px;
 	font-family: 'Karla', sans-serif;
 	font-size: 20px;
-	border: none;
-	box-shadow: inset 8px 3px 18px -4px rgba(0,0,0,0.4);
 }
 
 form {
-
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	height: 32px;
+	padding: 8px 16px;	
 }
 
 #pilihan{
+	left: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
