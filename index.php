@@ -1,15 +1,27 @@
 <html>
     <head>
-        <title>Obat</title>
+        <title>Rekomendasi Obat</title>
+    
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
     </head>
 
-    <link rel="stylesheet" href="style.css">
-
-    <body class="center">
-        <div>
-            <h2>Kamu bisa memasukan penyakit yang terdiagnosa</h2>
+    <body >   
+        <nav>
+            <div id="logo-img">
+              <a href="https://salty-plains-98133.herokuapp.com/">
+                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
+              </a>
+            </div>
+        </nav>     
+        <div id="banner">
+            <h1>Rekomendasi Obat</h1>
+        </div>
+        <main>
+        <h2>Kamu bisa memasukan penyakit yang terdiagnosa</h2>
             <form action="kontraindikasi.php" method="POST">
-                <select name="daftar_penyakit">
+               <select name="daftar_penyakit">
                     <option value="alergi rinitis">Alergi Rinitis</option>
                     <option value="asthma">Asthma</option>
                     <option value="asthma akut">Asthma Akut</option>
@@ -25,8 +37,7 @@
                 <input type="submit" name="submit" value="Submit">
 
             </form>
-            
-        </div>
+        </main>
     </body>
 
 </html>

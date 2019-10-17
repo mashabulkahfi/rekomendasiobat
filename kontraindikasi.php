@@ -1,5 +1,25 @@
 <html>
 
+<head>
+        <title>Rekomendasi Obat</title>
+    
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
+    </head>
+
+    <nav>
+            <div id="logo-img">
+              <a href="https://salty-plains-98133.herokuapp.com/">
+                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
+              </a>
+            </div>
+        </nav>     
+        <div id="banner">
+            <h1>Rekomendasi Obat</h1>
+        </div>
+        <h2>Apakah ada penyakit lain yang diidap?</h2>
+
 <?php
     session_start();
     $penyakit=$_POST['daftar_penyakit'];
@@ -18,17 +38,17 @@
     <?php ; }
     elseif($penyakit=="asthma" ){
         ?>
-        <form action="listobat.php" method="POST">
-                <select name="daftar_kontra">
-                    <option value="infeksi jamur sistemik">Infeksi Jamur Sistemik</option>
-                    <option value="sensitif mometasone furoate">Senitif Mometasone Furoate</option>
-                    <option value="sensitif ormoterol fumarate">Sensitif Ormoterol Fumurate</option>
-                    <option value="tidak ada">Tidak ada</option>
+            <form action="listobat.php" method="POST">
+                    <select name="daftar_kontra">
+                        <option value="infeksi jamur sistemik">Infeksi Jamur Sistemik</option>
+                        <option value="sensitif mometasone furoate">Senitif Mometasone Furoate</option>
+                        <option value="sensitif ormoterol fumarate">Sensitif Ormoterol Fumurate</option>
+                        <option value="tidak ada">Tidak ada</option>
 
-                </select>
+                    </select>
 
-                <input type="submit" name="submit" value="Submit">
-        </form>
+                    <input type="submit" name="submit" value="Submit">
+            </form>
     <?php ; }
     elseif($penyakit=="asthma akut"){
         ?>

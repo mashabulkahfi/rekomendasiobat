@@ -1,4 +1,21 @@
 <html>
+<head>
+        <title>Rekomendasi Obat</title>
+    
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
+    </head>
+<nav>
+            <div id="logo-img">
+              <a href="https://salty-plains-98133.herokuapp.com/">
+                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
+              </a>
+            </div>
+        </nav>     
+        <div id="banner">
+            <h1>Rekomendasi Obat</h1>
+        </div>
 
 <?php
     session_start();

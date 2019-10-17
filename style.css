@@ -1,0 +1,103 @@
+body {
+	font-family: 'Karla', sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+}
+
+main {
+	margin: 0 auto;
+}
+
+input,
+textarea{
+	height: 32px;
+	padding: auto;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+}
+
+
+#pilihan form {
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	height: 32px;
+	padding: auto;	
+}
+
+#pilihan{
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#banner{
+	height: 50vh;
+	padding-top: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #F6F6F6;
+	color: #1A346F;
+}
+
+/* Navigation */
+nav {
+	height: 72px;
+	background: #08120b;
+	width: 100%;
+	margin: 0;
+	position: fixed;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 16px 0 0;
+	box-sizing: border-box;
+	z-index: 100; 
+}
+
+nav a{
+	padding: 0 32px;
+	color: #eee;
+	transition: 0.4s;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: #C0eb6a;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	margin: 0;
+}
+
+#logo-img {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	color: white;
+	transition: 0.4s;
+	position: relative;
+	left: 5%;
+}
+
+#logo-img img{
+	height: 60px;
+}
