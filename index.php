@@ -1,12 +1,19 @@
 <html>
     <head>
-        <title>Obat</title>
+        <title>Rekomendasi Obat</title>
     </head>
 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Karla|Righteous&display=swap" rel="stylesheet">
 
-    <body>        
+    <body>   
+        <nav>
+            <div id="logo-img">
+              <a href="#">
+                <img src="src/drugs.png" alt="Rekomendasi Obat logo">
+              </a>
+            </div>
+        </nav>     
         <div id="banner">
             <h1>Rekomendasi Obat</h1>
         </div>
