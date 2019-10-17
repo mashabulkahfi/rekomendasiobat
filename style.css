@@ -16,8 +16,15 @@ main {
 	margin: 0 auto;
 }
 
+#pilihan{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #banner{
 	height: 50vh;
+	padding-top: 72px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
